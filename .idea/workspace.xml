@@ -31,21 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BFS.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Search/BFS.py">
+      <file leaf-file-name="Floyd.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ShortestPath/Floyd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="55" column="49" lean-forward="false" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DFS.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Search/DFS.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+            <state relative-caret-position="210">
+              <caret line="14" column="75" lean-forward="false" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -70,6 +60,7 @@
         <option value="$PROJECT_DIR$/SpanningTree/Kruskal.py" />
         <option value="$PROJECT_DIR$/Search/DFS.py" />
         <option value="$PROJECT_DIR$/Search/BFS.py" />
+        <option value="$PROJECT_DIR$/ShortestPath/Floyd.py" />
       </list>
     </option>
   </component>
@@ -130,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BFS">
+  <component name="RunManager" selected="Python.Floyd">
     <configuration name="BFS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,6 +153,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="GraphTheory" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search/DFS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Floyd" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ShortestPath" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GraphTheory" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ShortestPath/Floyd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,18 +212,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.Kruskal" />
       <item index="1" class="java.lang.String" itemvalue="Python.Prim" />
       <item index="2" class="java.lang.String" itemvalue="Python.BFS" />
       <item index="3" class="java.lang.String" itemvalue="Python.DFS" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Floyd" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.BFS" />
-        <item index="1" class="java.lang.String" itemvalue="Python.DFS" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Prim" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Kruskal" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.Floyd" />
+        <item index="1" class="java.lang.String" itemvalue="Python.BFS" />
+        <item index="2" class="java.lang.String" itemvalue="Python.DFS" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Prim" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Kruskal" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +273,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -279,14 +290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpanningTree/Prim.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -311,6 +314,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
           <caret line="55" column="49" lean-forward="false" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpanningTree/Prim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShortestPath/Floyd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="75" lean-forward="false" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
           <folding />
         </state>
       </provider>
