@@ -5,3 +5,5 @@ Minumum Spanning Tree:
 Search:
 	DFS
 	BFS
+Shortest Path:
+	Floyd
