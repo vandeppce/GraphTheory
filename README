@@ -8,3 +8,4 @@ Search:
 Shortest Path:
 	Floyd
 	Dijkstra
+	Bellman-Ford
